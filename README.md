@@ -1,6 +1,6 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
-![logoUN.gif](attachment:a0167cb1-8068-4e75-ba52-6f242705ccb8:logoUN.gif)
+![logoUN.gif](https://upload.wikimedia.org/wikipedia/commons/1/1e/UNAL_Logosimbolo.svg)
 
 **Grupo 6**
 
@@ -14,7 +14,7 @@ Semestre: 2024 - 2
 
 # **Sistema Inteligente Integrado para Predicción, Clasificación y Recomendación en Comercio Electrónico**
 
-Nos piden como equipo analizar los datos de la empresa de comercio electrónico que actualmente enfrenta problemas importantes 
+Nos piden como equipo, analizar los datos de la empresa de comercio electrónico que actualmente enfrenta problemas importantes 
 relacionados con la gestión de la plataforma de ventas
 
 Con el objetivo de mejorar la toma de decisiones, optimizar recursos y brindar una experiencia superior a los clientes, 
