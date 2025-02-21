@@ -1,7 +1,6 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
 ![logoUN.gif](https://github.com/user-attachments/assets/15156bed-3874-421e-9add-741a161c7946)
-)
 
 **Grupo 6**
 
