@@ -1,6 +1,6 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
-![logoUN.gif](https://upload.wikimedia.org/wikipedia/commons/1/1e/UNAL_Logosimbolo.svg)
+![logoUN.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AUNAL_Logosimbolo.svg&psig=AOvVaw2PBZ_0hpaXqKbHa6qyGjqy&ust=1740190090424000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjk-LPX04sDFQAAAAAdAAAAABAE)
 
 **Grupo 6**
 
