@@ -28,5 +28,7 @@ Para dar solución a las necesidades anteriormente mencionadas, se divide el tra
 requiere ser abordada con herramientas específicas para cada caso.
 
 Módulo 1: Predicción de Demanda (Series de Tiempo)
+
 Módulo 2: Clasificación Automática de Productos (Imágenes)
+
 Módulo 3: Sistema de Recomendación
