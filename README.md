@@ -1,6 +1,6 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
-![logoUN.gif](![image](https://github.com/user-attachments/assets/42ed9284-6ed9-46e1-bc5a-7b04a3d4a388))
+![logoUN.gif](https://foro.org.co/wp-content/uploads/2022/08/Universidad-Nacional.jpg)
 
 **Grupo 6**
 
@@ -32,3 +32,5 @@ Módulo 1: Predicción de Demanda (Series de Tiempo)
 Módulo 2: Clasificación Automática de Productos (Imágenes)
 
 Módulo 3: Sistema de Recomendación
+
+En cada módulo encontrarás los correspondientes cuadernos de colab con el código propuesto para cada solución.
