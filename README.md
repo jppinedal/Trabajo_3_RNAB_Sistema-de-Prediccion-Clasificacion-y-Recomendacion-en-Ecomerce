@@ -1,6 +1,6 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
-![logoUN.gif](https://foro.org.co/wp-content/uploads/2022/08/Universidad-Nacional.jpg)
+![logoUN.gif](https://cdiac.manizales.unal.edu.co/imagenes/LogosMini/un.png)
 
 **Grupo 6**
 
