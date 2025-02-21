@@ -1,6 +1,7 @@
 # **Trabajo 03: Aplicaciones de Redes Neuronales**
 
-![logoUN.gif](https://cdiac.manizales.unal.edu.co/imagenes/LogosMini/un.png)
+![logoUN.gif](https://github.com/user-attachments/assets/15156bed-3874-421e-9add-741a161c7946)
+)
 
 **Grupo 6**
 
