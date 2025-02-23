@@ -83,7 +83,7 @@ def plot_predictions(predictions, data, days, hist):
 # ----- Comienzo de la app ----- #
 st.title("Redes Neuronales y algoritmos Bioinspirados")
 st.subheader("2024-2S - Grupo 6 \n")
-st.image("img/logo.png", width=350)
+#st.image("img/logo.png", width=350)
 st.subheader("Sistema Inteligente Integrado para Predicción, Clasificación y Recomendación en Comercio Electrónico \n")
 
 
