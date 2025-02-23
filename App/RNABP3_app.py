@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras.models import load_model
+print(tf.__version__)
 from PIL import Image
-import io
 import tempfile
 from sklearn.preprocessing import RobustScaler
 
