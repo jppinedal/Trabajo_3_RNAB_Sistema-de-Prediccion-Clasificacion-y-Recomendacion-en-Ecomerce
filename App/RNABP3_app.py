@@ -85,7 +85,14 @@ def plot_predictions(predictions, data, days, hist):
 st.title("Redes Neuronales y algoritmos Bioinspirados")
 st.subheader("2024-2S - Grupo 6 \n")
 file_path = os.path.abspath("img/logo.png")
-st.image(file_path, width=350)
+
+if os.path.exists(file_path):
+    st.success(f"Archivo encontrado en: {file_path}")
+    st.image(file_path, width=350)
+else:
+    st.error(f"Archivo NO encontrado. Directorio actual: {os.getcwd()}")
+
+
 st.subheader("Sistema Inteligente Integrado para Predicción, Clasificación y Recomendación en Comercio Electrónico \n")
 
 
