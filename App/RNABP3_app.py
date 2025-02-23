@@ -85,7 +85,8 @@ def plot_predictions(predictions, data, days, hist):
 # ----- Comienzo de la app ----- #
 st.title("Redes Neuronales y algoritmos Bioinspirados")
 st.subheader("2024-2S - Grupo 6 \n")
-current_dir = Path(__file__).parent
+
+current_dir = Path(__file__).parent # Directorio actual para hacer el despliegue
 file_path = current_dir / "img/logo.png"
 
 #file_path = os.path.abspath("img/logo.png")
@@ -111,7 +112,7 @@ with tabs[0]:
     st.text("La aplicación analizará los datos y generará dos gráficos: \n")
     st.text("- Historial de ventas 📉 \n - Predicción de ventas futuras 🔮")
     lstm_model_file = st.file_uploader("Sube el modelo LSTM", type=["keras"])
-    data = pd.read_csv('data/data_lstm.csv')
+    data = pd.read_csv(f'{current_dir}/data/data_lstm.csv')
     
     if lstm_model_file:
         with tempfile.NamedTemporaryFile(delete=False, suffix=".keras") as temp_model:
@@ -174,7 +175,7 @@ with tabs[2]:
 
     # Cargar datos
     def load_data():
-        data = pd.read_csv("data/Amazon-Products-Filtered.csv")
+        data = pd.read_csv(f"{current_dir}/data/Amazon-Products-Filtered.csv")
         return data
 
     # Cargar matriz de similitud
