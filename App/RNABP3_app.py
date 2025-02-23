@@ -84,13 +84,15 @@ def plot_predictions(predictions, data, days, hist):
 # ----- Comienzo de la app ----- #
 st.title("Redes Neuronales y algoritmos Bioinspirados")
 st.subheader("2024-2S - Grupo 6 \n")
-file_path = os.path.abspath("/mount/src/trabajo_3_rnab_sistema-de-prediccion-clasificacion-y-recomendacion-en-ecomerce/img/logo.png")
+file_path = os.path.abspath("img/logo.png")
 
 if os.path.exists(file_path):
     st.success(f"Archivo encontrado en: {file_path}")
     st.image(file_path, width=350)
 else:
     st.error(f"Archivo NO encontrado. Directorio actual: {os.getcwd()}")
+    #leemos el archivo en la rura retornada 
+    st.image(f'{os.getcwd()}/imag/logo.png', width=350)
 
 
 st.subheader("Sistema Inteligente Integrado para Predicción, Clasificación y Recomendación en Comercio Electrónico \n")
