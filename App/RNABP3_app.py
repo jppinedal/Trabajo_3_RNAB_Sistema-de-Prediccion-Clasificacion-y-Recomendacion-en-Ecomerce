@@ -7,6 +7,7 @@ from tensorflow.keras.models import load_model
 print(tf.__version__)
 from PIL import Image
 import tempfile
+import os
 from sklearn.preprocessing import RobustScaler
 
 # Función para cargar imagen
@@ -83,7 +84,8 @@ def plot_predictions(predictions, data, days, hist):
 # ----- Comienzo de la app ----- #
 st.title("Redes Neuronales y algoritmos Bioinspirados")
 st.subheader("2024-2S - Grupo 6 \n")
-#st.image("img/logo.png", width=350)
+file_path = os.path.abspath("img/logo.png")
+st.image(file_path, width=350)
 st.subheader("Sistema Inteligente Integrado para Predicción, Clasificación y Recomendación en Comercio Electrónico \n")
 
 
