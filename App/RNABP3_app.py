@@ -92,6 +92,8 @@ file_path = current_dir / "img/logo.png"
 #file_path = os.path.abspath("img/logo.png")
 
 st.image(file_path, width=350)
+st.text("\n")
+st.page_link("https://candy-monkey-1cd.notion.site/Trabajo-03-Aplicaciones-de-Redes-Neuronales-19e7a8b98a1980f7ac5fdf2cc37d5053#1a17a8b98a1980e48ba6dd0dfb898254", label="Conoce el informe técnico del proyecto", icon="📑")
 
 
 
@@ -103,6 +105,7 @@ tabs = st.tabs(["Predicción con LSTM", "Clasificación de Imágenes", "Recomend
 
 # Sección de predicción con LSTM
 with tabs[0]:
+    st.page_link("https://drive.google.com/file/d/1_g8sYMSVzp8hiZQCSqGhyx-t_9pX5YLH/view?usp=drive_link", label="Descarga aquí el modelo LSTM.keras", icon="⏬")
     st.header("Predicción de Series Temporales")
     st.text("Esta sección te ayuda a estimar las ventas futuras a partir de datos históricos. \n")
     st.text("1️⃣ Sube el modelo LSTM entrenado (.keras) \n")
@@ -131,6 +134,7 @@ with tabs[0]:
 
 # Sección de clasificación de imágenes
 with tabs[1]:
+    st.page_link("https://drive.google.com/file/d/1mPHQ8J9T29oN1a5zsu37uewRHWTK6ytb/view?usp=drive_link", label="Descarga aquí el modelo IMG.keras", icon="⏬")
     st.header("Clasificación de Imágenes")
     st.text("Esta sección te permite subir una imagen para ser clasificada en una de las siguientes categorías: \n \n 👕 Camiseta (tshirt) | 🛋️ Sofá (sofa) | 👖 Jeans (jeans) | 📺 Televisor (tv)")
     img_model_file = st.file_uploader("Sube el modelo de clasificación (.keras)", type=["keras"])
@@ -147,7 +151,7 @@ with tabs[1]:
         st.text("3️⃣ Espera el análisis del modelo 🤖 \n")
         st.text("El sistema analizará la imagen y determinará a qué categoría pertenece entre: Camiseta (tshirt), Sofá (sofa), Jeans (jeans) o Televisor (tv).")
 
-        uploaded_file = st.file_uploader("Sube una imagen", type=["jpg", "png", "jpeg"])
+        uploaded_file = st.file_uploader("Sube una imagen", type=["jpg", "jpeg"])
         
         if uploaded_file is not None:
             clases = ['tshirt', 'sofa', 'jeans', 'tv']
@@ -165,6 +169,7 @@ with tabs[1]:
             plot_imagen_classification(img_model, image_classify, clases)
 
 with tabs[2]:
+    st.page_link("https://drive.google.com/file/d/1a7kf9mmTFzv0FpnGOSf7WdpskNpobVDL/view?usp=drive_link", label="Descarga aquí la matriz de similitud Amazon-Products-Similarity.npy", icon="⏬")
     st.header("Sistema de recomendación de Productos")
     st.text("Esta sección te genera recomendaciones de acuerdo a tu producto seleccionado. \n")
     st.text("1️⃣ Carga la matriz de similitud (npy) \n")
