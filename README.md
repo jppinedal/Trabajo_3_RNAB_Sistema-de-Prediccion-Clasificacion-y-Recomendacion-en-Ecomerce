@@ -34,3 +34,5 @@ Módulo 2: Clasificación Automática de Productos (Imágenes)
 Módulo 3: Sistema de Recomendación
 
 En cada módulo encontrarás los correspondientes cuadernos de colab con el código propuesto para cada solución.
+>.[!Informe].
+>[Enlace al informe](https://candy-monkey-1cd.notion.site/Trabajo-03-Aplicaciones-de-Redes-Neuronales-19e7a8b98a1980f7ac5fdf2cc37d5053#9cc7ab601fb147baa3c574cc8520d21e)
